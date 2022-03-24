@@ -70,7 +70,7 @@ int main()
           c[i][j]=0;
           for(k=0;k<n;k++)
           {
-             c[i][j]=c[i][j]+(a[i][k]*b[k][j]);
+             c[i][j]=a[i][k]*b[k][j];
           }
        }
     }
